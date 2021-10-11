@@ -10,9 +10,9 @@ $oCategory->addToList($aCategory);
 $oCategory = new Category('Decoration murale', 'tableaux',5);
 $oCategory->addToList($aCategory);
 
+$oCategory = new Category('');
+$oCategory->deleteToListByIndex($aCategory, $aParamsURL[2]);
 
-$sortCategory = new Category ('','',0);
-$sortCategory->sortToList($aCategory);
-
-include('index.php');
+include 'index.php';
 include('views/categoryView.php');
+include('views/delCategoryView.php');

@@ -17,10 +17,18 @@ if (count($aCategory) >= 1):
                 <td> <?php echo $category->getName(); ?> </td>
                 <td> <?php echo $category->getDescription(); ?> </td>
                 <td> <?php echo $category->getOrder(); ?> </td>
+                <td><a type="button"
+                       class="btn btn-outline-danger"
+                       href="/delcategory/<?php echo $index; ?>"
+                       title="supprimer">supprimer</a></td>
             </tr>
         <?php endforeach; ?>
         </tbody>
     </table>
+    <a type="button"
+       class="btn btn-outline-danger"
+       href="addcategory"
+       title="ajouter">Ajouter une catégorie</a>
 <?php
 endif;
 ?>

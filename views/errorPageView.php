@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="mx-1">
-                <a type="button" class="btn btn-outline-danger" href="/" title="retour">Retour à la page accueil</a>
+                <a type="button" class="btn btn-outline-danger" href="/category/" title="retour">Retour à la page accueil</a>
             </div>
         </div>
     </div>

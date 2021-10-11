@@ -67,4 +67,22 @@ class Category
     {
         array_push($aCategory, $this);
     }
+
+    /** sort the array in field "order"
+     * @param array $aCategory
+     */
+    public function sortToList(&$aCategory)
+    {
+        $columns = array_column($aCategory, 'order');
+        array_multisort($columns, SORT_ASC, $aCategory);
+    }
+
+    /** Delete Category
+     * @param $aCategory
+     * @param $index
+     */
+    public function deleteToListByIndex(&$aCategory, $index)
+    {
+        unset($aCategory[$index]);
+    }
 }

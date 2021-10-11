@@ -11,8 +11,6 @@ $oCategory = new Category('Decoration murale', 'tableaux',5);
 $oCategory->addToList($aCategory);
 
 
-$sortCategory = new Category ('','',0);
-$sortCategory->sortToList($aCategory);
 
 include('index.php');
-include('views/categoryView.php');
+include('views/addCategoryView.php');
