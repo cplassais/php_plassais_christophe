@@ -1,0 +1,21 @@
+Constructeur :
+La méthode constructeur ou plus simplement le constructeur d’une classe est une méthode qui va être appelée
+ à chaque fois qu’on va instancier une classe.
+Le constructeur va permettre d’initialiser des propriétés dès la création d’un objet.
+
+Exemple création d'une classe Voiture dans laquelle on va définir un constructeur dans lequel on va "modéliser" instanciation
+ de l'objet (marque, modèle, énergie, motorisation)
+
+Getter et Setter :
+sont des méthodes définies dans la classe (Voiture dans notre exemple)
+qui permettent de lire et d'écrire les variables de la classe déclarées en private permettant de contrôler l'accès.
+
+Systeme MVC
+
+Modèle Vue Contrôleur
+DEéinition littérale : MVC est une architecture logicielle destinée aux interfaces graphiques
+elle est composée de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.
+
+Un modèle (Model) contient les données à afficher.
+Une vue (View) contient la présentation de l'interface graphique.
+Un contrôleur (Controller) contient la logique concernant les actions effectuées par l'utilisateur.
