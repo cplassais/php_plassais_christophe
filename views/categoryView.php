@@ -20,15 +20,20 @@ if (count($aCategory) >= 1):
                 <td><a type="button"
                        class="btn btn-outline-danger"
                        href="/delcategory/<?php echo $index; ?>"
-                       title="supprimer">supprimer</a></td>
+                       title="supprimer">supprimer</a>
+                </td>
             </tr>
         <?php endforeach; ?>
         </tbody>
     </table>
     <a type="button"
        class="btn btn-outline-danger"
-       href="addcategory"
+       href="/addcategory"
        title="ajouter">Ajouter une catégorie</a>
+    <a type="button"
+       class="btn btn-outline-danger"
+       href="/sortcategory"
+       title="trier">trier sur order</a>
 <?php
 endif;
 ?>

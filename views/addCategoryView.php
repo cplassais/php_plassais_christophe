@@ -16,6 +16,11 @@
                 </p>
                 <input class="btn btn-dark" type="submit" value="Ajouter" name="validate"/>
             </form>
+
+            <h3><?php if(isset($msg) and !empty($msg)):
+                echo $msg;
+                endif;
+                ?></h3>
         </div>
     </div>
 </div>

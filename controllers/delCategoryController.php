@@ -1,13 +1,13 @@
 <?php
 require_once('models/categoryModel.php');
 $aCategory = array();
-$oCategory = new Category('Table','basse',12);
+$oCategory = new Category('Eclairage','Eclairage electrique',12);
 $oCategory->addToList($aCategory);
-$oCategory = new Category('Luminaire','plafonnier',1);
+$oCategory = new Category('Salon','ameublement',1);
 $oCategory->addToList($aCategory);
-$oCategory = new Category('Lit','deux places', 52);
+$oCategory = new Category('Chambre','literie & meuble', 52);
 $oCategory->addToList($aCategory);
-$oCategory = new Category('Decoration murale', 'tableaux',5);
+$oCategory = new Category('Decoration murale', 'par accrochage',5);
 $oCategory->addToList($aCategory);
 
 $oCategory = new Category('');

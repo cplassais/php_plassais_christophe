@@ -10,6 +10,10 @@ switch ($aParamsURL[1]) {
     case 'delcategory':
         include 'controllers/delCategoryController.php';
         break;
+    case 'sortcategory':
+        include 'controllers/sortCategoryController.php';
+        break;
+
     case 'article':
         include 'controllers/articleController.php';
         break;

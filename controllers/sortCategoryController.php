@@ -10,12 +10,8 @@ $oCategory->addToList($aCategory);
 $oCategory = new Category('Decoration murale', 'par accrochage',5);
 $oCategory->addToList($aCategory);
 
-if(isset($_POST['name']) && (strlen($_POST['name'])>1 && strlen($_POST['name'])<=50)):
-    $oCategory = new Category($_POST['name']);
-    $oCategory->addNewCategory($aCategory);
-else:
-    $msg = "Nom invalide";
-endif;
+$sortCategory = new Category ('','',0);
+$sortCategory->sortToList($aCategory);
 
 include('index.php');
-include('views/addCategoryView.php');
+include('views/categoryView.php');

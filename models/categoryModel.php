@@ -82,7 +82,15 @@ class Category
      * @param $index
      */
     public function deleteToListByIndex(&$aCategory, $index)
+
     {
         unset($aCategory[$index]);
+    }
+    /**
+     * @param $tabCategories
+     */
+    public function addNewCategory(&$aCategory)
+    {
+        array_push($aCategory, $this);
     }
 }
