@@ -13,7 +13,7 @@ qui permettent de lire et d'écrire les variables de la classe déclarées en pr
 Systeme MVC
 
 Modèle Vue Contrôleur
-DEéinition littérale : MVC est une architecture logicielle destinée aux interfaces graphiques
+Définition littérale : MVC est une architecture logicielle destinée aux interfaces graphiques
 elle est composée de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.
 
 Un modèle (Model) contient les données à afficher.
